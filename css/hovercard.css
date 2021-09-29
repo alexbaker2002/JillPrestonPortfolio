@@ -1,0 +1,20 @@
+.hoverCard{
+
+}
+
+.hoverCard a:link{
+color: var(--dark);
+}
+
+.hoverCard a {
+    text-decoration: none;
+}
+
+.hoverCard a:visited{
+    color: var(--dark);
+}
+
+.hoverCard a:hover{
+    cursor: pointer;
+}
+
