@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto&display=swap');
 
  /* main>.container {
     padding: 60px 15px 0;
@@ -13,8 +13,8 @@
 }
 
 .title {
-    font-family: 'Playfair Display SC',
-    serif;
+    font-family: 'Bonheur Royale',
+    cursive;
 }
 
 .bold{
@@ -23,8 +23,8 @@
 }
 
 body{
-   font-family: 'Montserrat', sans-serif;
-    
+   font-family: 'Roboto',
+   sans-serif;
 
 }
 /* default styles */
@@ -34,13 +34,13 @@ body{
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(138, 192, 216, 1) 90%)
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(236, 167, 233) 90%)
 
 }
 /*Large screens*/
 @media only screen and (min-width: 992px) {
     .header{
-        background-image: url("/img/DaneWhitmanLarge.png");
+        background-image: url("/img/JillPrestonLarge.png");
         min-height: 480px;
     }
   
@@ -48,6 +48,6 @@ body{
 /*small screens*/
 @media only screen and (min-width: 576px) and (max-width:991px) {
     .header {
-        background-image: url("/img/DaneWhitmanSmall.png");
+        background-image: url("/img/JillPrestonSmall.png");
     }
 }
