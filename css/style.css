@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto&display=swap');
 
- /* main>.container {
+/* main>.container {
     padding: 60px 15px 0;
     margin-top: 5rem;
 }  */
@@ -14,37 +14,39 @@
 
 .title {
     font-family: 'Bonheur Royale',
-    cursive;
+        cursive;
 }
 
-.bold{
+.bold {
     font-weight: 900;
-    font-size:larger;
+    font-size: larger;
 }
 
-body{
-   font-family: 'Roboto',
-   sans-serif;
-
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    padding-top: 52px;
 }
+
 /* default styles */
-.header{
-    
-    background-color: #c1c1ce; 
+.header {
+
+    background-color: #c1c1ce;
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(236, 167, 233) 90%)
-
 }
+
 /*Large screens*/
 @media only screen and (min-width: 992px) {
-    .header{
+    .header {
         background-image: url("/img/JillPrestonLarge.png");
         min-height: 480px;
     }
-  
+
 }
+
 /*small screens*/
 @media only screen and (min-width: 576px) and (max-width:991px) {
     .header {
